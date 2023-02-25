@@ -9,4 +9,5 @@
 <h3>{{ post.subtitle }}</h3>
 <small>Created By: {{ post.author }} | On {{ post.created_on }}</small>
 <p>{{ post.body }}</p>
+<a href="{% url 'list' %}"></a>
 {% endblock content %}
